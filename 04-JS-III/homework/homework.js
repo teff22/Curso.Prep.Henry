@@ -3,6 +3,8 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  // array tiene varios {elementos contenidos 1,2,3,4}
+  return array [0]
 }
 
 
