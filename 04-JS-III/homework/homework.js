@@ -31,7 +31,6 @@ function incrementarPorUno(array) {
   array [i] = array [i] + 1}
   return array
 
-
 }
 
 
@@ -95,7 +94,7 @@ function promedioResultadosTest(resultadosTest) {
   var promedio = 0;
   var suma = 0;
 for (let i = 0; i<resultadosTest.length; i++) {
-  suma+= resultadosTest[i];
+  suma= suma +resultadosTest[i];
 } promedio = suma /resultadosTest.length
 return promedio;
 }
